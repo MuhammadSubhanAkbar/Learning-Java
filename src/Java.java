@@ -15,7 +15,7 @@ public class Java {
         double num2 = random.nextDouble(1,2);
         double num3 = random.nextDouble(2,3);
 
-        //Random boolens
+        //Random boolean
         boolean First = random.nextBoolean();
         boolean second = random.nextBoolean();
 
