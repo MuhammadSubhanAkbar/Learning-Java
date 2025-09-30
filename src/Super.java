@@ -7,7 +7,7 @@ public class Super {
 
 
         Person person = new Person("Tom", "Riddle");
-        Students students = new Students("Harry", "Potter", 3.25);
+        Student students = new Student("Harry", "Potter", 3.25);
 
         person.showName();
         students.showName();
