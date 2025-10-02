@@ -23,12 +23,12 @@ public class ObjectOrientedProgramming {
 
         Car car = new Car();
 
-      /*  System.out.println(car.make);
-        System.out.println(car.model);
-        System.out.println(car.color);
-        System.out.println(car.price);
-        System.out.println(car.year);
-        System.out.println(car.running);*/
+      /*  System.out.println(Car.make);
+        System.out.println(Car.model);
+        System.out.println(Car.color);
+        System.out.println(Car.price);
+        System.out.println(Car.year);
+        System.out.println(Car.running);*/
 
         System.out.println(car.running);
         car.start();
