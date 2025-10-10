@@ -1,16 +1,29 @@
 // Fixed: "interface" should be "implements" and Vehicle interface needs to be defined
 public class Car {
 
-    String make;
-    String model;
-    int year;
-    String color;
+    //If we make them private we cannot use them outside of car class
+    private String make;
+    private String model;
+    private int price;
+    private int year;
+    private String color;
 
-    public Car(String make, String model, int year, String color) {
-        this.make = make;
+    public Car( String model, String color,  int price) {
         this.model = model;
-        this.year = year;
         this.color = color;
+        this.price = price;
+    }
+
+    String getmodel(){
+        return this.model;
+    }
+
+    String getcolor(){
+        return this.color;
+    }
+
+    String getprice(){
+        return "$" + this.price;
     }
 
     @Override
