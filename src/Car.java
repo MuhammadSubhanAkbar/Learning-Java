@@ -26,6 +26,14 @@ public class Car {
         return "$" + this.price;
     }
 
+    void setColor(String color){
+        this.color = color;
+    }
+    void setprice(int price){
+        this.price = price;
+    }
+
+
     @Override
     public String toString() {
         // Fixed: Better formatting without extra spaces

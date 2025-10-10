@@ -7,7 +7,9 @@ public class GETTER_and_SETTER {
 
         Car car = new Car("Charger", "Yellow", 10000);
 
-
+        car.setprice(500); //Through this we can change the attributes, but if we didn't make a method for
+                            // an attribute we cannot change it
+        car.setColor("Red");
 
         System.out.println(car.getmodel() + " " + car.getcolor() + " " + car.getprice());
     }
