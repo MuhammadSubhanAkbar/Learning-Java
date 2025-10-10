@@ -8,7 +8,7 @@ public class polymorphism {
         //                Object can be treated as objects of a common superclass.
 
 
-        Car car = new Car( "Ford", "Mustang", 2025, "Red");
+        Car car = new Car( "Ford", "Mustang", 2025);
         Bike bike = new Bike();
         Boat boat = new Boat();
 
