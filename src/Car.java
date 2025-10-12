@@ -5,6 +5,18 @@ public class Car {
     String model;
     int year;
     String color;
+    Engine engine;
+
+    Car (String model, int year, String type) {
+        this.model = model;
+        this.year = year;
+        this.engine = new Engine(type);
+    }
+
+    void start(){
+        this.engine.Start();
+        System.out.println("The" + this.model + "is running." );
+    }
 
     public Car(String make, String model, int year, String color) {
         this.make = make;
