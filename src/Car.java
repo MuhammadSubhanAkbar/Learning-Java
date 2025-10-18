@@ -13,6 +13,9 @@ public class Car {
         this.engine = new Engine(type);
     }
 
+    public Car(String ford, String mustang, int i) {
+    }
+
     void start(){
         this.engine.Start();
         System.out.println("The" + this.model + "is running." );
