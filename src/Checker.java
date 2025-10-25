@@ -15,7 +15,7 @@ public class Checker {
             StringBuilder sb = new StringBuilder(sentence);
             String reversed = sb.reverse().toString();
 
-            if(reversed.equals(sentence)){
+            if(reversed ==  sentence){
                 System.out.println("It is a palindrome");
                 System.out.println(reversed);
             }else {
