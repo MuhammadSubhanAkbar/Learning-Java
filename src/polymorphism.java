@@ -8,7 +8,7 @@ public class polymorphism {
         //                Object can be treated as objects of a common superclass.
 
 
-        Car car = new Car( "Ford", "Mustang", 2025);
+//        Car car = new Car( "Ford", "Mustang", 2025);
         Bike bike = new Bike();
         Boat boat = new Boat();
 
@@ -18,7 +18,7 @@ public class polymorphism {
         for (Vehicle v : vehicle) {
             v.go();
         }
-        car.go();
+//        car.go();
 //        System.out.println(car.toString());
 //        bike.go();
 //        boat.go();
